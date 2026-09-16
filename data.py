@@ -11,6 +11,7 @@ response.raise_for_status()
 data = response.json()
 question_data = data["results"]
 
+# Fallback sample data if API is unavailable
 # question_data = [
 #     {
 #         "category": "Science: Computers",
